@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bootcamp-project"
+version = "0.1.0"
+description = ""
+authors = ["surasak-chantarach <74267846+surasak-chantarach@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.29.0"
+pysftp = "^0.2.9"
+psycopg2 = "^2.9.6"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
